@@ -51,7 +51,7 @@ Now if I have to install, say, vlc on a fresh install of Ubuntu with no internet
 2. Connect the drive to the computer
 3. `./add_to_source_list vlc` 
 4. `sudo apt-get update`
-5. `sudo apt-get install --allow-unauthorized vlc`
+5. `sudo apt-get install --allow-unauthenticated vlc`
 
 Not exactly an elegant solution, but works for me. 
 
